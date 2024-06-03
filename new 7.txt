@@ -1,0 +1,20 @@
+<div class="container">
+                    <div class="login box">
+                        <h2> Login Form</h2>
+                        <form name="myform" action="#"onsubmit="return validation()">
+                            <table>
+                                <tr><td><label>Username</label> 
+                                </td> <td><input type="text"name="name"/> </td></tr>
+                                <tr><td><label>Password</label> 
+                                </td> <td><input type="text"name="password"/> </td></tr>
+                                <tr> <td colspan="2"><input type="submit" value="Login"/></td></tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+          </main>
+		  
+		   <footer>
+            <p align="center">Design By: Aivan Alicante</p>
+            <p align="center">BSIT 1D</p>
+        </footer>

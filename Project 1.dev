@@ -1,0 +1,11 @@
+[Project]
+FileName=C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\Project 1.dev
+Name=Project 1
+Use_gpp=1
+UnitCount=1
+ResFiles=C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\rsrc.rc
+NoConsole=1
+IsDll=0
+Icon=C:\Users\julius mordeno nunez\Downloads\devcpp401\Bin\Mainicon.ico
+[Unit1]
+FileName=Untitled1

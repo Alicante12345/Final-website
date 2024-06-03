@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout</title>
+    <link href="new 7.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <img src="https://kat-on.asscat.edu.ph/pluginfile.php/1/theme_moove/logo/1662702462/ASSCAT%20Logo.png" alt="logo" height="180" width="177">
+            </div>
+            <div id="headingName">
+                <p class="asscatname">Agusan Del Sur State College of Agriculture and Technology</p>
+                <p>Bunawan Agusan Del Sur, 8506</p>
+            </div>
+            <div id="social-media" style="display: inline-block;">
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\Facebook-Logo.png" width="35" height="35"/></a></li>        
+                    <li><a href="https://www.tiktok.com/"><img src="C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\Facebook-Logo.png" width="35" height="35"/></a></li>
+                    <li><a href="https://twitter.com/"><img src="C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\Facebook-Logo.png" width="35" height="35"/></a></li>
+                    <li><a href="https://www.youtube.com/"><img src="C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\Facebook-Logo.png" width="35" height="35"/></a></li>
+                </ul>
+            </div>
+        </header>
+
+        <nav>
+            <div id="navbar">
+                <a href="file:///C:/Users/julius%20mordeno%20nunez/OneDrive/Documents/Aivan's%20File/in.html">Home</a>
+                <a href="#">Activity1</a>
+                <a href="#">Activity2</a>
+                <a href="#">Activity3</a>
+            </div>
+        </nav>
+
+        <main>
+
+            <section>
+                <script>
+                    function validatedform(){
+                        var username=document.myform.name.value;
+                        var password=document.myform.password.value;
+            
+                        if (username=="Aivan"&& password=="VAn"){
+                            //alert("Name can't be blank");
+                            window.location="mainpage.html";
+                            return false;
+                        }
+                        else if (password!="Van"){
+                            alert("Password is incorrect.");
+                            return false;
+                        }
+                    }
+                </script>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="login box">
+                        <h2> Login Form</h2>
+                        <form name="myform" action="#"onsubmit="return validation()">
+                            <table>
+                                <tr><td><label>Username</label> 
+                                </td> <td><input type="text"name="name"/> </td></tr>
+                                <tr><td><label>Password</label> 
+                                </td> <td><input type="text"name="password"/> </td></tr>
+                                <tr> <td colspan="2"><input type="submit" value="Login"/></td></tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </body>
+
+            </section>
+            <aside>
+                
+            </aside>
+        </main>
+       
+
+        <footer>
+            <p align="center">Design By: Aivan Alicante</p>
+            <p align="center">BSIT 1D</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+       /*CSS Document filename:style.css*/
+
+body { 
+    background-color: #9a9a9a;
+}
+
+h2 {
+    background: color #fc9;
+    padding: 30px 35px;
+    margin: 10px-50px;
+    margin-bottom:10px ;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    color: #3300CC;
+}
+div.container {
+    width: 900px;
+    height: 610px;
+    margin: 30px auto;
+    background-color: #9a9a9a;
+
+}
+label {
+    color: #3366FF;
+    text-shadow: 0 1px 0 #33ccff;
+    font-size:18px ;
+    font-weight: 300;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="college-logo.png" alt="College Logo" height="50">
+        <span class="college-name">Agusan del Sur State College of Agriculture and Technology</span>
+    </div>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login Form</h2>
+            <form action="login-process.php" method="post">
+                <input type="text" name="username" placeholder="Username" required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

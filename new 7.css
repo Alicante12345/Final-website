@@ -1,0 +1,163 @@
+/* This is a CSS Document*/
+Body{
+    background-color:green;
+    width: 900px;
+}
+
+
+#headingname{
+font-size: 20pt;
+padding: 100px;
+color: white;
+margin-left: 50px;
+}
+
+#social-media UL LI {
+    display: inline;
+}
+#social-media{
+    float:right;
+}
+nav {
+    height: 30px;
+    background-color: gray;
+}
+main {
+    background-color: aqua;
+    height: 900px;
+   width: 900px;
+}
+aside{
+    background-color: orange;
+    height: 900px;
+    width: 300px;
+    float:right;
+}
+section{
+    background-color:#53c098;
+    height: 450px;
+    width: 600px;
+    float: left;
+    
+}
+section {
+    background-color:white;
+    height: 450px;
+    width: 600px;
+    float: left;
+   
+}
+
+
+footer{
+	background-color:#53c098;
+	height: 100px;
+}
+
+#logo{
+    padding-top:10px;
+	margin-left:15px;
+	margin-top:10px;
+	float:left;
+}
+
+#headingName {
+	padding-top:50px;
+	margin-left:210px;
+	font-size:20pt;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family: Calibri, sans-serif;
+}
+p.add{
+    font-size:16pt;
+	padding-top:5px;
+}
+p.asscatname {
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	margin-right:5px;
+	padding-bottom:5px;
+}
+
+#social-media ul li {
+	display:inline;
+}
+
+#social-media{
+	float:right;
+}
+
+#social-media {
+	margin-top;80px;
+	margin-right:10px;
+}
+
+
+
+.Home {
+	position: absolute;
+	border: 5px solid;
+	margin-top: 50px;
+	margin-left: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.Activity1 {
+	
+	position: absolute;
+	border: 5px solid;
+	margin-top: 10px;
+	margin-left: 184px
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.Activity2 {
+	table-layout: auto;
+	position: absolute;
+	border: 5px solid;
+	margin-top: 10px;
+	margin-left: 380px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.Activity3 {
+	
+	position: absolute;
+	border: 5px solid;
+	margin-top: 10px;
+	margin-left: 575px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+body { 
+    background-color: #9a9a9a;
+}
+
+h2 {
+    background: color #fc9;
+    padding: 30px 35px;
+    margin: 10px-50px;
+    margin-bottom:10px ;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    color: #3300CC;
+}
+div.container {
+    width: 900px;
+    height: 610px;
+    margin: 30px auto;
+    background-color: #9a9a9a;
+
+}
+label {
+    color: #3366FF;
+    text-shadow: 0 1px 0 #33ccff;
+    font-size:18px ;
+    font-weight: 300;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Highlights</title>
+    <style>
+        body {
+            font-family: cursive, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+           }
+
+        header {
+            height: 90px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .highlights {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .highlights h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        main {
+            text-align: center;
+            width: 100%;
+        }
+
+        .card {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #b52828;
+            color: white;
+            border: none;
+            border-radius: 0 0 10px 10px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .card button:hover {
+            background-color: #a32424;
+        }
+
+        button.back-to-top-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgb(20, 20, 20);
+            border: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+            cursor: pointer;
+            transition-duration: 0.3s;
+            overflow: hidden;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+        }
+
+        button.back-to-top-button svg {
+            width: 16px;
+            height: 16px;
+            fill: white;
+            transition-duration: 0.3s;
+        }
+
+        button.back-to-top-button:hover svg {
+            transform: translateY(-4px);
+        }
+
+        button.back-to-top-button a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-class-name {
+            --color: 180, 255, 100;
+            border-radius: .5em;
+            transition: .3s;
+            background-color: rgba(var(--color), .2);
+            color: rgb(var(--color));
+            fill: rgb(var(--color));
+            font-family: monospace;
+            font-weight: bolder;
+            font-size: x-large;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            cursor: pointer;
+            border: 2px solid rgb(var(--color));
+            box-shadow: 0 0 10px rgba(var(--color), .4);
+            outline: none;
+            display: flex;
+            align-items: center;
+            padding: .5em 1em;
+            text-decoration: none;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+        }
+          
+        .btn-class-name:hover {
+            box-shadow: 0 0 0 5px rgba(var(--color), .5);
+        }
+          
+        .btn-class-name span {
+            transform: scale(.8);
+            transition: .3s;
+        }
+          
+        .btn-class-name:hover span {
+            transform: scale(1);
+        }
+          
+        .btn-class-name svg {
+            font-size: 0;
+            transform: scale(0.5) translateX(0%) rotate(-180deg);
+            transition: .3s;
+        }
+          
+        .btn-class-name:hover svg {
+            font-size: 20px;
+            transform: scale(1) translateX(20%) rotate(0deg);
+        }
+          
+        .btn-class-name:active {
+            transition: 0s;
+            box-shadow: 0 0 0 5px rgb(var(--color));
+        }
+        
+        footer {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+     <img src="C:\Users\julius mordeno nunez\OneDrive\Pictures\Screenshots\Screenshot (350).png">
+    </main>
+    <button class="back-to-top-button">
+        <a href="file:///C:/xampp/htdocs/project_root/final%20project/no.3.html"><!-- Replace #header with the ID of the element you want to scroll to, for example, #header -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
+        </a>
+    </button>
+    <footer>
+        <button class="btn-class-name">
+            <a href="file:///C:/xampp/htdocs/project_root/final%20project/no.3.html">
+            <span>Next</span>
+            <svg viewBox="0 0 320 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z">
+            </path>
+            </svg>
+          </button>
+        </footer>
+</body>
+</html>
